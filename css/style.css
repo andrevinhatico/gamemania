@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Serif:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container-grid {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.topo {
+    height: 44px;
+    background-color: #1446A0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+.topo a{
+    margin-left: 5px;
+}
+
+
+header {
+    height: 200px;
+    background-color: #EDE82A; 
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo {
+    width: 242px;
+}
+
+#divBusca{
+    background-color:white;
+    border:none;
+    width:320px;
+    height:40px;
+    text-align: center;
+  }
+
+  #divLupa{
+    background-color:white;    
+    width:40px;
+    height: 40px; 
+  }
+
+  #btnBusca{
+    border:none;
+    float:left;
+    height:40px;
+    width:40px;
+    font-weight:bold;
+    background-color: white;
+  }
+
+.icones {
+    width: 40px;
+    margin-left: 15px;   
+}
+
+.menu {
+    height: 60px;
+    background-color: #EDE82A; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+  
+}
+
+.menu a {
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1446A0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.menu a:hover {
+    background-color: #1446A0 ;
+    color: #ffffff;
+}
+
+.banner {
+    background-image: url(../img/banner_black.png);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item {
+    height:390px;
+    width: 370px;         
+}
+
+.item img {
+    width: 315px;
+    align-items: centers;
+
+}
+
+.itens {
+    height: 427px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.botao {
+    width: 198px;
+    height: 46px;
+    margin-left: 86px;
+    margin-bottom: 58px;
+    color: #1446A0; 
+    background-color: #EDE82A; 
+    border: none;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 28px;
+}
+
+.mapa {
+    background-image: url(../img/Mapa.png); 
+    height: 554px;   
+}
+
+.rodape {
+    height: 316px;
+    background-color: #EDE82A;     
+}
+
+.toporodape {
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.miniblocos {
+    width: 370px;
+    height: 42px;  
+    display: flex;
+    
+    
+}
+
+.miniblocos span {
+
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 28px;
+    color: #1446A0; 
+    height: 23px;
+    margin: 0 auto;
+}
+
+
+.blocos {
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+      
+    
+}
+
+.elemento {
+    width: 370px;
+    height: 260px;    
+    
+}
+
+
+.barra {
+    width: 370px;
+    height: 65px;
+    display: flex;    
+    
+}
+
+.icone {
+    width: 150px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;        
+}
+
+.icone img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.textos {
+    width: 220px;
+    height: 65px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: #1446A0; 
+    display: flex;
+    align-items: center;
+    
+}
+
+.titulosubpagina {
+    display: flex;
+}
+
+.titulosubpagina {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1446A0;
+    text-transform: uppercase;    
+    font-family: 'IBM Plex Serif', serif;
+    justify-content: center;
+    
+}
+
+.marcaplaystation {
+    background-image: url(../img/playstation.jpg);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marcaxbox {
+    background-image: url(../img/xbox_marc.png);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marcanitendo {
+    background-image: url(../img/xbox_marc.png);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marcapc {
+    background-image: url(../img/pcgame.jpg);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marcaswitch {
+    background-image: url(../img/switch.jpg);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
