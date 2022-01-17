@@ -99,6 +99,7 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'IBM Plex Serif', serif;
+    
 }
 
 .menu a:hover {
@@ -112,12 +113,12 @@ header {
 }
 
 
-.banner {
+/* .banner {
     background-image: url(../img/banner_black.png);
     height: 539px;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
 .item {
     height:390px;
@@ -155,6 +156,7 @@ header {
 }
 
 .rodape {
+    margin-top: 25px;
     height: 316px;
     background-color: #EDE82A;     
 }
@@ -322,6 +324,7 @@ header {
        background-color: #EDE82A;
        width: 200px;
        position: absolute;
+       z-index: 10;
         
     }
 
