@@ -150,6 +150,14 @@ header {
     font-size: 28px;
 }
 
+.login {
+    width: 700px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .mapa {
     background-image: url(../img/Mapa.png); 
     height: 554px;   
@@ -468,4 +476,22 @@ header {
 
 }
 
- 
+
+ .btn-projeto {
+    background-color: #1446A0 ;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+ }
+
+
+.preco-projeto{
+    background-color: #EDE82A;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1446A0 ;
+    font-weight: bold;
+
+}
+
+.produtos {
+    margin-top: 20px;
+}
