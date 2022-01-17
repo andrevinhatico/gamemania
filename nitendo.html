@@ -11,15 +11,17 @@
     <header> 
         
         <div class="topo">
-            <a href=""> <img src="img/pix.svg" alt="Logo do pix"> </a>
-            <a href=""> <img src="img/Aceitamos PIX.svg" alt="Logo aceitamos pix"> </a>        
+            <a href="" class="pix-topo"> <img src="img/pix.svg" alt="Logo do pix"> </a>
+            <a href="" class="texto-topo"> <img src="img/Aceitamos PIX.svg" alt="Logo aceitamos pix"> </a>        
         </div>
 
         <div class="container-grid cabecalho">
 
+            <a href="#" class="link-menu-barras" onclick="mostrarMenu()"><img src="img/logo hamburguer.svg" alt="icone menu de barras"></a>
+
             <a href="index.html"> <img class="logo" src="img/logo_game_mania.svg" alt="Logo da aplicação Game Mania"> </a>
 
-            <form class="cabecalho" action="" >
+            <form class=" pesquisa cabecalho" action="" >
                 <input id="divBusca" type="text" placeholder="Precisando de alguma coisa?"/>
                 <button id="btnBusca">
                     <a href=""><img id="divLupa" src="img/pesquisar.svg" />  </a>
@@ -35,7 +37,7 @@
                    
         </div> 
      
-        <nav class="menu">
+        <nav id="menu" class="menufundo">
             <a href="playstation.html">playstation</a>
             <a href="xbox.html">xbox</a>
             <a href="nitendo.html">nitendo</a>
@@ -44,8 +46,10 @@
             <a href="index.html">lançamentos</a>
             <a href="index.html">usados</a>
         </nav>
-          
+
+        
     </header>
+
 
     <section class="subpaginas">
         <h1 class="titulosubpagina container-grid">nitendo</h1>
@@ -125,7 +129,7 @@ s
             </div>
 
 
-            <div class="elemento">
+            <div class="elemento barra2">
                 <div class="barra">
                     <div class="icone">
                         <img src="../gamemania/img/icone-facebook.png" alt="icone Facebook"> 
@@ -162,7 +166,7 @@ s
             
             </div>
 
-            <div class="elemento">
+            <div class="elemento barra2">
                 <div class="barra">
                     <div class="icone">
                         <img src="../gamemania/img/icone-cartao.png" alt="icone cartões"> 
@@ -196,22 +200,18 @@ s
 
                 </div>
             
-            </div>
-
-            
+            </div>            
                 
 
         </div> 
-
-            
                   
-            
-
-        
+       
+     
 
         
 
     </footer>
+
 
 
     
