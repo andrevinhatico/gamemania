@@ -1,3 +1,21 @@
+$(document).ready(function() {
+
+    $("#menu-barra").click(function() {
+
+        $("#menu").toggleClass("menu-ativo");
+
+        // if ( $("#menu").hasClass("menu-ativo") ) { //verifica se exite
+        //     //Esconder o menu 
+        //     $("#menu").removeClass("menu-ativo")
+        // } else {
+        //     //Mostrar o menu
+        //     $("#menu").addClass("menu-ativo")
+        // }
+    })
+
+})
+
+
 
 
 

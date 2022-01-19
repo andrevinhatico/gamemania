@@ -112,6 +112,10 @@ header {
     
 }
 
+#menu-barra {
+    display: none;
+}
+
 
 /* .banner {
     background-image: url(../img/banner_black.png);
@@ -134,7 +138,7 @@ header {
 .itens {
     height: 427px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
     
 .botao {
@@ -199,7 +203,7 @@ header {
 .blocos {
     height: 330px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
       
     
 }
@@ -317,6 +321,11 @@ header {
         display: inline-block;        
     }
 
+    #menu-barra {
+        display: inline-block;
+    }
+
+   
     header {
         height: 140px; 
     }
@@ -337,6 +346,10 @@ header {
         
     }
 
+    .menu-ativo {
+        display: flex;
+    }
+
     .logo {
         width: 150px;
     }
@@ -345,10 +358,14 @@ header {
         width: 30px;
         margin-left: 5px;
     }
+
+    .mapa {
+        width: 100%;
+    }
 }
 
 
-@media only screen and (max-width: 843px) {
+@media only screen and (max-width: 940px) {
     .carro {
         width: 100%;
     }
@@ -378,16 +395,13 @@ header {
     
     .blocos {
         margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
+        display: flex;        
         flex-direction: column;
+       justify-content: space-between;
         
     }
 
-    .elemento {
-        width: auto;
-    }
-
+    
     .rodape {
         height: 776px;;
     }
@@ -402,6 +416,8 @@ header {
         font-size: 14px;    
         
     }
+
+  
 
     
 
@@ -475,6 +491,24 @@ header {
         font-size: 14px;    
         
     }
+
+    .itens {
+        width: 100%;
+    }
+
+    .item {
+        width: 100%;
+    }
+  
+    .item img {
+        width: 100%;
+    }
+
+    .item button {
+        align-items: center;
+    }
+  
+
   
 
 }
